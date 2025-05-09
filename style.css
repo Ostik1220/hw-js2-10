@@ -1,0 +1,49 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+div{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    transition-duration: 250ms;
+}
+
+.main-box{
+    background-color: white;
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 16px;
+}
+
+.box-one{
+    background-color: red;
+}
+.box-two{
+    background-color: blue;
+}
+.box-three{
+    background-color: yellow;
+}
+.box-four{
+    background-color: green;
+}
+
+.start-button{
+    color: greenyellow;
+    background-color: green;
+    font-size: 16px;
+    border: none;
+}
+
+.red-button{
+    width: 100px;
+    height: 100px;
+background-color: rgb(0, 0, 0);
+border-radius: 90px;
+border: none;
+box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+
+}
